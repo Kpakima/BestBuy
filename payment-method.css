@@ -1,0 +1,43 @@
+.header-BG {
+    background-color: black;
+}
+
+.logo {
+    color: white;
+}
+
+.header-wrapper {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px
+}
+
+.payment-method-heading {
+    margin-bottom: 20px;
+}
+
+.payment-method-container li {
+    list-style: none;
+}
+
+.method-container .method {
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.method-container .forward-arrow {
+    color: #222;
+    font-size: 28px;
+    font-weight: lighter;
+}
+.method-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding: 12px 0px;
+}

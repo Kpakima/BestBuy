@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | BestBUY</title>
+    <link rel="stylesheet" type="text/css" href="./global.css" />
+    <link rel="stylesheet" type="text/css" href="./components.css" />
+    <link rel="stylesheet" type="text/css" href="./template.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!-- Start of the header -->
+    <div class="container">
+      <header class="header-container">
+        <div class="logo-container">
+          <a href="./index.html">
+            <h1 class="logo">BestBUY</h1>
+          </a>
+          <!-- menu icon -->
+          <img src="./Icons/menu.svg" alt="menu icon" class="menu-icon-left" />
+        </div>
+        <!-- search form -->
+        <form id="search-form" action="example.php" method="get">
+          <input
+            type="search"
+            id="search-box"
+            placeholder="Search Products & Brands"
+            required
+          />
+          <button type="reset">
+            <img src="./Icons/search.svg" alt="search icon" />
+          </button>
+        </form>
+        <nav>
+          <img src="./Icons/menu.svg" alt="menu icon" class="menu-icon-right" />
+          <ul class="nav-list">
+            <img src="./Icons/x.svg" alt="x icon" class="close-menu-right" />
+            <li><a class="link" href="#0">Download App</a></li>
+            <li>
+              <a href="/sign-up.html" class="link"
+                ><span class="signup-btn">Sign Up</span> /</a
+              >
+              <a href="#0" class="link"><span id="login">Login</span></a>
+            </li>
+            <li>
+              <a href="#0" class="link"
+                ><img
+                  src="./Icons/shopping-cart.svg"
+                  alt="shopping cart"
+                  id="shopping-cart"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- End of the header -->
+
+    <!-- Start of left menu -->
+    <div class="left-menu-container">
+      <div class="close-menu-left">
+        <img src="./Icons/x.svg" alt="x icon" />
+      </div>
+      <ul class="nav-wrapper">
+        <li><a href="./index.html" class="link">Home</a></li>
+        <li><a href="./about.html" class="link">About</a></li>
+        <li><a href="./contact.html" class="link">Contact</a></li>
+        <li><a href="#0" class="link">Blog</a></li>
+        <li><a href="#0" class="link">Pages</a></li>
+        <li><a href="#0" class="link">Partner</a></li>
+        <li><a href="#0" class="link">Support</a></li>
+        <li><a href="#0" class="link">Sponsor</a></li>
+      </ul>
+    </div>
+    <!-- End of left menu -->
+
+    <!-- Start of signin form -->
+    <div class="signin-form-container">
+      <img src="./Icons/x.svg" alt="close form" class="close" />
+      <form id="signin-form" action="exmaple.php" method="post">
+        <div class="name-container">
+          <label for="username"
+            >Username<br />
+            <input
+              type="text"
+              name="username"
+              placeholder="Enter your username"
+              required
+              id="username"
+            />
+          </label>
+        </div>
+        <div class="password-container">
+          <label for="userpwd"
+            >Password<br />
+            <input
+              type="password"
+              placeholder="Enter your password"
+              required
+              id="userpwd"
+          /></label>
+        </div>
+        <div class="rememberme-container">
+          <input type="checkbox" name="rememberuser" id="check" /> Remember Me
+        </div>
+        <div class="submit-container">
+          <button type="reset">Log in</button>
+        </div>
+        <div class="form-info">
+          <a href="#0"><p>Forgot your password?</p></a>
+          <a href="#0"><p>Don't have an account?</p></a>
+        </div>
+      </form>
+    </div>
+    <!-- End of sigin form -->
+
+    <div class="container">
+      <div class="section">
+        <div class="purchase-container">
+          <div class="purchase-prod-container">
+            <img
+              id="purchase-prod-img"
+              src="./Products/laptop-2.png"
+              alt="laptop"
+            />
+          </div>
+          <div class="purchase-prod-info">
+            <h2>Acer 3680 Laptop CVH</h2>
+            <div class="price-container">
+              <img src="./Icons/4-star-rating.png" alt="rating products" />
+              <h3>$94.890</h3>
+            </div>
+            <a href="#0" class="add-cart-btn">Add To Cart</a>
+            <a href="./payment-method.html" class="buy-now-btn">Buy Now</a>
+            <ul class="purchase-details">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start of popular products -->
+    <div class="container">
+      <div class="section">
+        <div class="popular-heading">
+          <h2>Popular Products</h2>
+        </div>
+        <div class="popular-prod-container">
+          <div class="popular-slider">
+            <div class="popular-prod-1 popular-prod">
+              <img src="./Products/laptop.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-2 popular-prod">
+              <img src="./Products/laptop-2.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-3 popular-prod">
+              <img src="./Products/laptop--3.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-4 popular-prod">
+              <img src="./Products/laptop-4.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-5 popular-prod">
+              <img src="./Products/laptop-5.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-1 popular-prod">
+              <img src="./Products/laptop.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of popolar products -->
+
+    <!-- Start of feature products -->
+    <div class="container">
+      <div class="section">
+        <div class="feature-prod-heading">
+          <h2>Feature Products</h2>
+        </div>
+        <div class="feature-prod-container">
+          <div class="feature-prod-slider">
+            <div class="feature-prod-1 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/men-watch.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Men Watch</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-2 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/living-room-set.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Modern Living Room Set</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-3 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/dinning-room-table.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Dinner Room Table</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-4 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/printer.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">HP ENVY 4520</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-5 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/laptop-2.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Apple MacBook Pro Air</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of feature products -->
+
+    <!-- Start of popular products -->
+    <div class="container">
+      <div class="section">
+        <div class="popular-heading">
+          <h2>Popular Products</h2>
+        </div>
+        <div class="popular-prod-container">
+          <div class="popular-slider">
+            <div class="popular-prod-1 popular-prod">
+              <img src="./Products/laptop.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-2 popular-prod">
+              <img src="./Products/laptop-2.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-3 popular-prod">
+              <img src="./Products/laptop--3.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-4 popular-prod">
+              <img src="./Products/laptop-4.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-5 popular-prod">
+              <img src="./Products/laptop-5.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="popular-prod-1 popular-prod">
+              <img src="./Products/laptop.png" alt="laptop" />
+              <div class="popular-prod-info">
+                <p class="prod-name">Acer 3680 Laptop CVH</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of popolar products -->
+
+    <!-- Deals of the day -->
+    <div class="container">
+      <div class="section">
+        <div class="deals-of-day-container">
+          <div class="deals-of-day-info">
+            <div class="deals-of-day-info-content">
+              <h2>Deals Of The Day</h2>
+              <p>07 : 32 : 25</p>
+            </div>
+          </div>
+          <div class="deals-of-day-slider">
+            <div class="feature-prod-1 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/men-watch.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Men Watch</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-2 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/living-room-set.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Modern Living Room Set</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-3 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/dinning-room-table.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Dinner Room Table</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-4 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/printer.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">HP ENVY 4520</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+            <div class="feature-prod-5 feature-prod">
+              <div class="feature-prod-wrapper">
+                <img src="./Products/laptop-2.png" alt="prod" />
+              </div>
+              <div class="feature-prod-info-wrapper">
+                <p class="prod-name">Apple MacBook Pro Air</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+                  minima?
+                </p>
+                <div class="pricing-container">
+                  <img src="./Icons/4-star-rating.png" alt="rating products" />
+                  <h3>$94.890</h3>
+                </div>
+                <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of deals of the day -->
+
+    <!-- Start of recent products -->
+    <div class="container">
+      <div class="section">
+        <div class="recent-products-container">
+          <div class="recent-product-1 recent-product">
+            <div class="img-wrapper">
+              <img src="./Products/desktop.jpg" alt="Apple Monitor" />
+            </div>
+            <div class="recent-product-info">
+              <p class="prod-name">Apple 3680 Monitor</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                quae!
+              </p>
+              <div class="price-rating-container">
+                <img src="./Icons/4-star-rating.png" alt="rating" />
+                <h3><del>$1200US</del> $850US</h3>
+              </div>
+              <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+            </div>
+          </div>
+          <div class="recent-product-2 recent-product">
+            <div class="img-wrapper">
+              <img src="./Products/Jordan-1-Air.png" alt="Air Jordan" />
+            </div>
+            <div class="recent-product-info">
+              <p class="prod-name">Air Jordan 1</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                ullam!
+              </p>
+              <div class="price-rating-container">
+                <img src="./Icons/4-star-rating.png" alt="rating" />
+                <h3><del>$1000US</del> $900US</h3>
+              </div>
+              <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+            </div>
+          </div>
+          <div class="recent-product-3 recent-product">
+            <div class="img-wrapper">
+              <img src="./Products/laptop-2.png" alt="laptop" />
+            </div>
+            <div class="recent-product-info">
+              <p class="prod-name">Samsung Galaxy Taplet</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                numquam.
+              </p>
+              <div class="price-rating-container">
+                <img src="./Icons/4-star-rating.png" alt="rating" />
+                <h3><del>$700US</del> $500US</h3>
+              </div>
+              <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+            </div>
+          </div>
+          <div class="recent-product-4 recent-product">
+            <div class="img-wrapper">
+              <img src="./Products/XBOX-GAMING.png" alt="XBox Gaming" />
+            </div>
+            <div class="recent-product-info">
+              <p class="prod-name">XBOX GAMING</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis, commodi!
+              </p>
+              <div class="price-rating-container">
+                <img src="./Icons/4-star-rating.png" alt="rating" />
+                <h3><del>$500US</del> $350US</h3>
+              </div>
+              <a href="./template.html"><p class="buy-now">Buy Now</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of recent products -->
+
+    <!-- Start of the footer section -->
+    <footer class="footer-bg">
+      <div class="container">
+        <footer class="footer-container">
+          <div class="footer-col1 col">
+            <a href="./index.html">
+              <h1 class="logo">BestBUY</h1>
+            </a>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptate maiores eos!
+            </p>
+            <div class="social-container">
+              <a href="#0"
+                ><img src="./Icons/facebook.svg" alt="facebook icon"
+              /></a>
+              <a href="#0"
+                ><img src="./Icons/instagram.svg" alt="instagram icon"
+              /></a>
+              <a href="#0"
+                ><img src="./Icons/linkedin.svg" alt="linkin icon"
+              /></a>
+              <a href="#0"
+                ><img src="./Icons/twitter.svg" alt="twitter icon"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-col2 col">
+            <h3>POLICY INFO</h3>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+          </div>
+          <div class="footer-col3 col">
+            <h3>COMPANY</h3>
+            <a href="./index.html"><p>Home</p></a>
+            <a href="./about.html"><p>About us</p></a>
+            <a href="./blog.html"><p>Blog</p></a>
+            <a href="./services.html"><p>Services</p></a>
+            <a href="./FAQ.html"><p>FAQ</p></a>
+            <a href="./contact.html"><p>Contact us</p></a>
+          </div>
+          <div class="footer-col4 col">
+            <h3>BUSINESS</h3>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+          </div>
+          <div class="footer-col5 col">
+            <h3>SUBSCRIBE</h3>
+            <form action="example.php" method="post">
+              <input
+                type="email"
+                placeholder="Enter Emall Address"
+                required
+                name="useremail-address"
+                id="subs-email-box"
+              />
+              <button type="reset" id="subs-submit-btn">Submit</button>
+            </form>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+              odio.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </footer>
+    <!-- End of the footer section -->
+  </body>
+</html>

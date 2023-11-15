@@ -1,0 +1,86 @@
+.contact-container {
+width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 4rem;
+align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+.contact-form {
+   
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    background-color: white;
+    padding: 20px;
+}
+.contact-form #name-x,
+#email-x, #select-x,
+#message-x-box {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    padding: .6rem;
+    border: 1px solid #c0c0c0;
+    outline: none;
+}
+
+.contact-form #name-x,
+#email-x, #select-x {
+    height: 50px;
+}
+
+#message-x-box {
+    height: 150px;
+}
+
+.submit-x-btn {
+    color: white;
+    background-color: rgb(0, 128, 179);
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .2s;
+}
+.submit-x-btn:hover {
+    background-color: rgb(2, 157, 218);
+    cursor: pointer;
+}
+
+.contact-form-container h2 {
+    color: rgb(0, 128, 179);
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.contact-info-container h2 {
+    color: rgb(0, 128, 179);
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.contact-info-container div {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 20px;
+}
+
+.contact-info-container .uppercase-info {
+    text-transform: uppercase;
+}

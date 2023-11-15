@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | BestBUY</title>
+    <link rel="stylesheet" type="text/css" href="./global.css" />
+    <link rel="stylesheet" type="text/css" href="./components.css" />
+    <link rel="stylesheet" type="text/css" href="./contact.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!-- Start of the header -->
+    <div class="container">
+      <header class="header-container">
+        <div class="logo-container">
+          <a href="./index.html">
+            <h1 class="logo">BestBUY</h1>
+          </a>
+          <!-- menu icon -->
+          <img src="./Icons/menu.svg" alt="menu icon" class="menu-icon-left" />
+        </div>
+        <!-- search form -->
+        <form id="search-form" action="example.php" method="get">
+          <input
+            type="search"
+            id="search-box"
+            placeholder="Search Products & Brands"
+            required
+          />
+          <button type="reset">
+            <img src="./Icons/search.svg" alt="search icon" />
+          </button>
+        </form>
+        <nav>
+          <img src="./Icons/menu.svg" alt="menu icon" class="menu-icon-right" />
+          <ul class="nav-list">
+            <img src="./Icons/x.svg" alt="x icon" class="close-menu-right" />
+            <li><a class="link" href="#0">Download App</a></li>
+            <li>
+              <a class="link" href="./sign-up.html"
+                ><span class="signup-btn">Sign Up</span></a
+              >
+              /
+              <a class="link" href="#0"> <span id="login">Login</span></a>
+            </li>
+            <li>
+              <a href="#0" class="link"
+                ><img
+                  src="./Icons/shopping-cart.svg"
+                  alt="shopping cart"
+                  id="shopping-cart"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- End of the header -->
+
+    <!-- Start of left menu -->
+    <div class="left-menu-container">
+      <div class="close-menu-left">
+        <img src="./Icons/x.svg" alt="x icon" />
+      </div>
+      <ul class="nav-wrapper">
+        <li><a href="./index.html" class="link">Home</a></li>
+        <li><a href="./about.html" class="link">About</a></li>
+        <li><a href="./contact.html" class="link">Contact</a></li>
+        <li><a href="#0" class="link">Blog</a></li>
+        <li><a href="#0" class="link">Pages</a></li>
+        <li><a href="#0" class="link">Partner</a></li>
+        <li><a href="#0" class="link">Support</a></li>
+        <li><a href="#0" class="link">Sponsor</a></li>
+      </ul>
+    </div>
+    <!-- End of left menu -->
+
+    <!-- Start of signin form -->
+    <div class="signin-form-container">
+      <img src="./Icons/x.svg" alt="close form" class="close" />
+      <form id="signin-form" action="exmaple.php" method="post">
+        <div class="name-container">
+          <label for="username"
+            >Username<br />
+            <input
+              type="text"
+              name="username"
+              placeholder="Enter your username"
+              required
+              id="username"
+            />
+          </label>
+        </div>
+        <div class="password-container">
+          <label for="userpwd"
+            >Password<br />
+            <input
+              type="password"
+              placeholder="Enter your password"
+              required
+              id="userpwd"
+          /></label>
+        </div>
+        <div class="rememberme-container">
+          <input type="checkbox" name="rememberuser" id="check" /> Remember Me
+        </div>
+        <div class="submit-container">
+          <button type="reset">Log in</button>
+        </div>
+        <div class="form-info">
+          <a href="#0"><p>Forgot your password?</p></a>
+          <a href="#0"><p>Don't have an account?</p></a>
+        </div>
+      </form>
+    </div>
+    <!-- End of sigin form -->
+
+    <!-- Start of the contact section -->
+    <div class="container">
+      <div class="section">
+        <div class="contact-container">
+          <div class="contact-info-container">
+            <h2>Contact Info</h2>
+            <div class="">
+              <p>Phone +231-880-943-438</p>
+              <p>Hours of operation 8am - 5pm Monday-Friday</p>
+              <p>BestBUY Corporation</p>
+            </div>
+            <div class="uppercase-info">
+              <p>
+                Question about assembly, concerns, or interested in partnering
+                with BestBUY?
+              </p>
+              <p>
+                Check out our <a href="#0">FAQ section</a> Email us at
+                <a href="mailto:samueljoykpakima@gmail.come"
+                  >samueljoykpakima@gmail.com</a
+                >(Please allow 1 business day to respond)
+              </p>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <h2>Contact Form</h2>
+            <form action="example.php" class="contact-form">
+              <div class="name-x-container">
+                <label for="name"
+                  >Name<br />
+                  <input
+                    type="text"
+                    name="username"
+                    placeholder="username"
+                    required
+                    id="name-x"
+                /></label>
+              </div>
+              <div class="email-x-container">
+                <label for="email"
+                  >Email<br />
+                  <input
+                    type="email"
+                    name="useremail"
+                    placeholder="Email Address"
+                    required
+                    id="email-x"
+                /></label>
+              </div>
+              <div class="select-x-container">
+                <select name="subject" id="select-x">
+                  <option value="select">Select</option>
+                  <option value="partnerShip">Partnership</option>
+                  <option value="Support">Support</option>
+                  <option value="Sponsor">Sponsor</option>
+                  <option value="business">Business Transaction</option>
+                </select>
+              </div>
+              <div class="message-x-container">
+                <textarea
+                  name="messageus"
+                  id="message-x-box"
+                  placeholder="Message us..."
+                ></textarea>
+              </div>
+              <div class="submit-x-btn-container">
+                <button class="submit-x-btn" type="reset">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of the contact section -->
+
+    <!-- Start of the footer section -->
+    <footer class="footer-bg">
+      <div class="container">
+        <footer class="footer-container">
+          <div class="footer-col1 col">
+            <a href="./index.html">
+              <h1 class="logo">BestBUY</h1>
+            </a>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptate maiores eos!
+            </p>
+            <div class="social-container">
+              <a href="#0"
+                ><img src="./Icons/facebook.svg" alt="facebook icon"
+              /></a>
+              <a href="#0"
+                ><img src="./Icons/instagram.svg" alt="instagram icon"
+              /></a>
+              <a href="#0"
+                ><img src="./Icons/linkedin.svg" alt="linkin icon"
+              /></a>
+              <a href="#0"
+                ><img src="./Icons/twitter.svg" alt="twitter icon"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-col2 col">
+            <h3>POLICY INFO</h3>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+            <a href="#0"><p>Lorem ipsum dolor sit.</p></a>
+          </div>
+          <div class="footer-col3 col">
+            <h3>COMPANY</h3>
+            <a href="./index.html"><p>Home</p></a>
+            <a href="./about.html"><p>About us</p></a>
+            <a href="./contact.html"><p>Contact us</p></a>
+            <a href="#0"><p>Blog</p></a>
+            <a href="#0"><p>Services</p></a>
+            <a href="#0"><p>FAQ</p></a>
+          </div>
+          <div class="footer-col4 col">
+            <h3>BUSINESS</h3>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+            <a href="#0"><p>Lorem, ipsum dolor.</p></a>
+          </div>
+          <div class="footer-col5 col">
+            <h3>SUBSCRIBE</h3>
+            <form action="example.php" method="post">
+              <input
+                type="email"
+                placeholder="Enter Emall Address"
+                required
+                name="useremail-address"
+                id="subs-email-box"
+              />
+              <button type="reset" id="subs-submit-btn">Submit</button>
+            </form>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+              odio.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </footer>
+    <!-- End of the footer section -->
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BestBUY | Credit or Debit Card</title>
+    <link rel="stylesheet" type="text/css" href="./credit-card.css" />
+    <link rel="stylesheet" type="text/css" href="./global.css" />
+  </head>
+  <body>
+    <!-- start of back -->
+    <div class="container">
+      <a href="./payment-method.html">
+        <div class="back">
+          <p>< Back</p>
+        </div>
+      </a>
+    </div>
+    <!-- Enf of back -->
+
+    <!-- Start of the debit card form -->
+    <div class="container">
+      <div class="debit-card-container">
+        <div class="debit-card-info">
+          <h2>Add a credit or debit card</h2>
+          <p>BestBUY accepts major credit and debit cards.</p>
+        </div>
+        <form action="example.php" method="post" class="debit-card-form">
+          <div class="card-number-wrap">
+            <label for="card-name-ph"
+              >Card number<br />
+              <input
+                type="tel"
+                name="debitcardnumber"
+                placeholder="Card number"
+                required
+                id="card-number-ph"
+            /></label>
+          </div>
+          <div class="exp-date-wrap">
+            <label for="exp-date-ph"
+              >Expiration date<br />
+              <input
+                type="date"
+                required
+                name="cardexpiraationdate"
+                id="exp-date-ph"
+            /></label>
+          </div>
+          <div class="security-code-container">
+            <label for="cvv-code-ph"
+              >Security code (CVV)<br />
+              <input
+                type="tel"
+                placeholder="3-4 digit code"
+                required
+                name="cardcvvcode"
+                id="cvv-code-ph"
+            /></label>
+          </div>
+          <div class="card-name-wrap">
+            <label for="card-name-ph"
+              >Name on card<br />
+              <input
+                type="text"
+                placeholder="First and last name"
+                required
+                name="cardname"
+                id="card-name-ph"
+            /></label>
+          </div>
+          <div class="set-default-wrap">
+            <label for="defaultcheckbox">
+              <input
+                type="checkbox"
+                required
+                id="defaultcheckbox"
+                name="defaultcheckbox"
+              />
+              Set as default payment method.
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Enf of the debit card form -->
+
+    <!-- add and continue button -->
+    <div class="container">
+      <div class="add-and-continue-wrap">
+        <a href="#0" class="add-and-continue-btn">Add and continue</a>
+        <p>Your information is encrypted and secure</p>
+      </div>
+    </div>
+  </body>
+</html>
